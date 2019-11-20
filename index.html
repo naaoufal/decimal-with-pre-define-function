@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script src="decimal.js"></script>
+</head>
+
+<style>
+button:hover{
+    background-color: darkorange;
+}
+h2{
+    color: grey;
+    text-decoration: underline;
+    text-decoration-color: darkorange;
+}
+</style>
+
+<body>
+
+<h2><center>JavaScript Converter</center></h2>
+
+<table style="width: 60%; margin: auto; background-color:yellowgreen;">
+        <tr style="text-align: left;">
+            <th>Decimal</th>
+            <th>Binary</th>
+            <th>Octal</th>
+            <th>Hexadecimal</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="decimal" placeholder="choose a number" oninput="dec()"></td>
+            <td><span id="binary" style="background-color: yellowgreen;"></span></td>
+            <td><span id="octal" style="background-color:yellowgreen;"></span></td>
+            <td><span id="hexadecimal" style="background-color: yellowgreen;"></span></td>
+        </tr>
+    </table>
+    
+
+
+</body>
+</html>
